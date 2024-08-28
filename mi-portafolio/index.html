@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FT Desarrollo Web</title>
+    <link rel='stylesheet' href="custom/css/style.css"/>
+</head>
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>FT</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado">INICIO</a></li>
+                            <li><a href="#sobremi">SOBRE MI</a></li>
+                            <li><a href="#servicios">SERVICIOS</a></li>
+                            <li><a href="#contacto">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Luis Fernando Trasviña</span>, Desarrollador Web</h2>
+                <p class="descripcion">Ing. Sistemas Computacionales</p>
+                    <a href="#servicios">Ir a Servcios</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="custom/img/mifoto.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Luis Fernando Trasviña</span></h2>
+            <h3>Desarrollador de WEB</h3>
+            <p>Soy una persona positivia, optimista, alegre, paciente, siempre tratando de llevar una buena comunicacion con mis amigos 
+                y compañeros de trabajo, me gusta trabajar en equipo, tomando deciciones y participando, me gusta preguntar siempre que 
+                tengo una duda sobre algun tema, investigar y resolver los problemas que se me van presentando dia a dia.
+            </p>
+            <a href="#">Descargar CV</a>
+        </div>
+
+
+    </section>
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">Mis Servicios</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                 <li>Web</li>
+                 <li>Graphic</li>
+                </ul>
+                <p>Principiante en el diseño de aplicaciones web</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-duotone fa-computer"></i></span>
+                <h4>Reparacion de Hardware</h4>
+                <hr>
+                <ul class="servicios-tag">
+                 <li>Reparacion</li>
+                 <li>Servicio</li>
+                 <li>Configuracion</li>
+                </ul>
+                <p>Conocimiento avanzado en hardware de equipo de computo e impresion</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-user-secret"></i></span>
+                <h4>Seguridad Informatica</h4>
+                <hr>
+                <ul class="servicios-tag">
+                 <li>Hacking Etico</li>
+                 <li>Pentester</li>
+                 <li>Analisis de vulnerabilidades</li>
+                </ul>
+                <p>nmap, metasploit, hydra, etc</p>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="contenedor-skills" id="skills">
+        <h3>Habilidades</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>HTML & CSS</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>JAVASCRIPT</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="barra-progreso2"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>PYTHON</p>
+                <span class="porcentaje">50%</span>
+            </div>
+            <div class="barra">
+                <div id="py" class="barra-progreso3"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>BASE DE DATOS</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="barra-progreso4"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>SEGURIDAD INFORMATICA</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="seginf" class="barra-progreso5"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>SOPORTE TECNICO</p>
+                <span class="porcentaje">100%</span>
+            </div>
+            <div class="barra">
+                <div id="soporte" class="barra-progreso6"></div>
+            </div>
+        </div>
+    </div>
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacto</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Correo Electronico" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe aqui tu mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="bt">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Todos los Derechos Reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
